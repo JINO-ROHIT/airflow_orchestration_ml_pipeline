@@ -36,3 +36,20 @@ To stop the Airflow service and remove the containers, run:
 
 ```bash
 airflow compose down
+
+
+
+
+
+## Project Structure
+
+machine-learning-pipeline/
+│
+├── dags/            # Airflow DAGs (Directed Acyclic Graphs)
+│   ├── your_dag.py  # Your specific DAG definition
+│
+├── data/            # Data directory
+│
+├── models/          # Directory for storing trained ML models
+│
+└── README.md        # Project README
