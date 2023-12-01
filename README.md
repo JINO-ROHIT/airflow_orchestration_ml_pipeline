@@ -36,7 +36,7 @@ To stop the Airflow service and remove the containers, run:
 
 ```bash
 airflow compose down
-
+```
 
 
 
