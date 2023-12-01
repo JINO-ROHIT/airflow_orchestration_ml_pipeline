@@ -23,12 +23,16 @@ To run the machine learning pipeline, follow these steps:
     ```
 
 2. Access the Airflow UI at [http://localhost:8080/](http://localhost:8080/).
+
 ![Image 1](imgs/ui.png)
+
 3. Log in using the following credentials:
    - Username: airflow
    - Password: airflow
 
 4. Trigger your desired pipeline from the Airflow dashboard.
+   
+![Image 2](imgs/trigger.png)
 
 ## Stopping the Service
 
