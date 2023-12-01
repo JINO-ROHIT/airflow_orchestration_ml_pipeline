@@ -2,6 +2,8 @@
 
 ![Airflow Logo](https://github.com/apache/airflow/blob/main/airflow/www/static/pin.svg)
 
+
+
 This repository contains a simple Apache Airflow pipeline designed to process data, train a machine learning model, and test it using Airflow orchestration. The pipeline is Dockerized for easy deployment and reproducibility.
 
 ## Prerequisites
