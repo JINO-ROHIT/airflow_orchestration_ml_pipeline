@@ -1,0 +1,196 @@
+[2023-12-01T17:41:49.042+0000] {processor.py:157} INFO - Started process (PID=43) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:41:49.044+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:41:49.047+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:41:49.047+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:41:50.617+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:41:50.770+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:41:50.769+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:41:50.783+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:41:50.783+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-11-30T17:41:50.783137+00:00, run_after=2023-12-01T17:41:50.783137+00:00
+[2023-12-01T17:41:50.797+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 1.759 seconds
+[2023-12-01T17:42:20.942+0000] {processor.py:157} INFO - Started process (PID=133) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:42:20.943+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:42:20.944+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:42:20.944+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:42:21.565+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:42:21.578+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:42:21.578+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:42:21.593+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:42:21.593+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:42:21.606+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.665 seconds
+[2023-12-01T17:42:51.708+0000] {processor.py:157} INFO - Started process (PID=223) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:42:51.709+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:42:51.710+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:42:51.710+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:42:52.356+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:42:52.368+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:42:52.367+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:42:52.383+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:42:52.383+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:42:52.394+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.688 seconds
+[2023-12-01T17:43:22.539+0000] {processor.py:157} INFO - Started process (PID=313) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:43:22.540+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:43:22.541+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:43:22.541+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:43:23.139+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:43:23.151+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:43:23.151+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:43:23.166+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:43:23.165+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:43:23.178+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.640 seconds
+[2023-12-01T17:43:53.504+0000] {processor.py:157} INFO - Started process (PID=403) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:43:53.505+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:43:53.506+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:43:53.506+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:43:54.155+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:43:54.168+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:43:54.167+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:43:54.185+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:43:54.185+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:43:54.197+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.697 seconds
+[2023-12-01T17:44:24.579+0000] {processor.py:157} INFO - Started process (PID=493) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:44:24.580+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:44:24.581+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:44:24.581+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:44:25.200+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:44:25.213+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:44:25.213+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:44:25.229+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:44:25.229+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:44:25.241+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.665 seconds
+[2023-12-01T17:45:20.707+0000] {processor.py:157} INFO - Started process (PID=43) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:45:20.707+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:45:20.709+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:45:20.709+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:45:21.897+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:45:22.052+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:45:22.051+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:45:22.066+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:45:22.066+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:45:22.079+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 1.375 seconds
+[2023-12-01T17:45:52.365+0000] {processor.py:157} INFO - Started process (PID=133) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:45:52.365+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:45:52.366+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:45:52.366+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:45:53.052+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:45:53.066+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:45:53.065+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:45:53.083+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:45:53.083+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:45:53.095+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.733 seconds
+[2023-12-01T17:46:23.676+0000] {processor.py:157} INFO - Started process (PID=223) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:46:23.677+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:46:23.678+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:46:23.678+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:46:24.272+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:46:24.285+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:46:24.284+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:46:24.300+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:46:24.300+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:46:24.312+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.638 seconds
+[2023-12-01T17:46:54.552+0000] {processor.py:157} INFO - Started process (PID=313) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:46:54.553+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:46:54.554+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:46:54.554+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:46:55.161+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:46:55.175+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:46:55.174+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:46:55.191+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:46:55.191+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:46:55.204+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.655 seconds
+[2023-12-01T17:47:52.171+0000] {processor.py:157} INFO - Started process (PID=43) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:47:52.171+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:47:52.173+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:47:52.173+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:47:53.351+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:47:53.490+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:47:53.490+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:47:53.503+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:47:53.503+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:47:53.516+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 1.347 seconds
+[2023-12-01T17:48:23.820+0000] {processor.py:157} INFO - Started process (PID=133) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:48:23.820+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:48:23.821+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:48:23.821+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:48:24.539+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:48:24.551+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:48:24.551+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:48:24.566+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:48:24.566+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:48:24.579+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.761 seconds
+[2023-12-01T17:48:54.677+0000] {processor.py:157} INFO - Started process (PID=223) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:48:54.677+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:48:54.679+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:48:54.679+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:48:55.312+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:48:55.324+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:48:55.324+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:48:55.339+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:48:55.339+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:48:55.350+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.675 seconds
+[2023-12-01T17:49:25.541+0000] {processor.py:157} INFO - Started process (PID=313) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:49:25.542+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:49:25.543+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:49:25.543+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:49:26.141+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:49:26.153+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:49:26.152+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:49:26.167+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:49:26.167+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:49:26.179+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.640 seconds
+[2023-12-01T17:49:56.479+0000] {processor.py:157} INFO - Started process (PID=403) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:49:56.480+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:49:56.481+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:49:56.481+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:49:57.129+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:49:57.144+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:49:57.143+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:49:57.160+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:49:57.160+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:49:57.171+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.694 seconds
+[2023-12-01T17:50:27.428+0000] {processor.py:157} INFO - Started process (PID=493) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:50:27.428+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:50:27.430+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:50:27.429+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:50:28.022+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:50:28.034+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:50:28.033+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:50:28.048+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:50:28.048+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:50:28.060+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.634 seconds
+[2023-12-01T17:50:58.309+0000] {processor.py:157} INFO - Started process (PID=583) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:50:58.310+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:50:58.311+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:50:58.311+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:50:58.909+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:50:58.921+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:50:58.921+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:50:58.936+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:50:58.935+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:50:58.948+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.642 seconds
+[2023-12-01T17:51:29.014+0000] {processor.py:157} INFO - Started process (PID=672) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:51:29.014+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:51:29.015+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:51:29.015+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:51:29.635+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:51:29.648+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:51:29.648+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:51:29.662+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:51:29.662+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:51:29.672+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.661 seconds
+[2023-12-01T17:54:16.940+0000] {processor.py:157} INFO - Started process (PID=43) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:54:16.940+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:54:16.942+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:54:16.941+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:54:18.157+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:54:18.306+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:54:18.305+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:54:18.320+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:54:18.320+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:54:18.333+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 1.396 seconds
+[2023-12-01T17:54:48.557+0000] {processor.py:157} INFO - Started process (PID=133) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:54:48.558+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:54:48.559+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:54:48.559+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:54:49.159+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:54:49.171+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:54:49.170+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:54:49.185+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:54:49.185+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:54:49.197+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.642 seconds
+[2023-12-01T17:55:19.499+0000] {processor.py:157} INFO - Started process (PID=223) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:55:19.500+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:55:19.501+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:55:19.501+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:55:20.092+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:55:20.105+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:55:20.105+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:55:20.121+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:55:20.121+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:55:20.134+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.637 seconds
+[2023-12-01T17:55:50.193+0000] {processor.py:157} INFO - Started process (PID=312) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:55:50.194+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:55:50.195+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:55:50.195+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:55:50.772+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:55:50.785+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:55:50.785+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:55:50.801+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:55:50.801+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:55:50.815+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.623 seconds
+[2023-12-01T17:56:20.973+0000] {processor.py:157} INFO - Started process (PID=402) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:56:20.974+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:56:20.975+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:56:20.975+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:56:21.559+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:56:21.571+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:56:21.571+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:56:21.585+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:56:21.585+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:56:21.597+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.626 seconds
+[2023-12-01T17:56:52.224+0000] {processor.py:157} INFO - Started process (PID=511) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:56:52.225+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:56:52.227+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:56:52.227+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:56:52.829+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:56:52.840+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:56:52.840+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:56:52.853+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:56:52.853+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:56:52.864+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.643 seconds
+[2023-12-01T17:57:52.182+0000] {processor.py:157} INFO - Started process (PID=43) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:57:52.183+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:57:52.184+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:57:52.184+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:57:53.455+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:57:53.613+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:57:53.613+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:57:53.630+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:57:53.629+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:57:53.647+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 1.466 seconds
+[2023-12-01T17:58:24.026+0000] {processor.py:157} INFO - Started process (PID=133) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:58:24.026+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:58:24.028+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:58:24.028+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:58:24.640+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:58:24.656+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:58:24.655+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:58:24.672+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:58:24.672+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:58:24.684+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.660 seconds
+[2023-12-01T17:58:54.714+0000] {processor.py:157} INFO - Started process (PID=222) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:58:54.715+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:58:54.716+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:58:54.716+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:58:55.304+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:58:55.316+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:58:55.316+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:58:55.331+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:58:55.331+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:58:55.343+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.630 seconds
+[2023-12-01T17:59:25.448+0000] {processor.py:157} INFO - Started process (PID=312) to work on /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:59:25.448+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ml_pipeline2.py for tasks to queue
+[2023-12-01T17:59:25.449+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:59:25.449+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:59:26.017+0000] {processor.py:839} INFO - DAG(s) dict_keys(['linear_regression_pipeline']) retrieved from /opt/airflow/dags/ml_pipeline2.py
+[2023-12-01T17:59:26.029+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:59:26.029+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T17:59:26.044+0000] {logging_mixin.py:154} INFO - [2023-12-01T17:59:26.044+0000] {dag.py:3722} INFO - Setting next_dagrun for linear_regression_pipeline to 2023-12-01T17:41:50.783137+00:00, run_after=2023-12-02T17:41:50.783137+00:00
+[2023-12-01T17:59:26.057+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ml_pipeline2.py took 0.611 seconds

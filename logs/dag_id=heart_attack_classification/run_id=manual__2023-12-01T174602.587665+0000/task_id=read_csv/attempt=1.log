@@ -1,0 +1,26 @@
+[2023-12-01T17:46:04.657+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: heart_attack_classification.read_csv manual__2023-12-01T17:46:02.587665+00:00 [queued]>
+[2023-12-01T17:46:04.662+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: heart_attack_classification.read_csv manual__2023-12-01T17:46:02.587665+00:00 [queued]>
+[2023-12-01T17:46:04.662+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2023-12-01T17:46:04.671+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): read_csv> on 2023-12-01 17:46:02.587665+00:00
+[2023-12-01T17:46:04.677+0000] {standard_task_runner.py:57} INFO - Started process 84 to run task
+[2023-12-01T17:46:04.679+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'heart_attack_classification', 'read_csv', 'manual__2023-12-01T17:46:02.587665+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/ml_pipeline.py', '--cfg-path', '/tmp/tmp96vkjsxb']
+[2023-12-01T17:46:04.679+0000] {standard_task_runner.py:85} INFO - Job 50: Subtask read_csv
+[2023-12-01T17:46:04.707+0000] {task_command.py:416} INFO - Running <TaskInstance: heart_attack_classification.read_csv manual__2023-12-01T17:46:02.587665+00:00 [running]> on host 1eb2030ec5e2
+[2023-12-01T17:46:04.752+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='jino' AIRFLOW_CTX_DAG_ID='heart_attack_classification' AIRFLOW_CTX_TASK_ID='read_csv' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T17:46:02.587665+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-01T17:46:02.587665+00:00'
+[2023-12-01T17:46:04.760+0000] {python.py:194} INFO - Done. Returned value was:            id diagnosis  ...  fractal_dimension_worst  Unnamed: 32
+0      842302         M  ...                  0.11890          NaN
+1      842517         M  ...                  0.08902          NaN
+2    84300903         M  ...                  0.08758          NaN
+3    84348301         M  ...                  0.17300          NaN
+4    84358402         M  ...                  0.07678          NaN
+..        ...       ...  ...                      ...          ...
+564    926424         M  ...                  0.07115          NaN
+565    926682         M  ...                  0.06637          NaN
+566    926954         M  ...                  0.07820          NaN
+567    927241         M  ...                  0.12400          NaN
+568     92751         B  ...                  0.07039          NaN
+
+[569 rows x 33 columns]
+[2023-12-01T17:46:04.848+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=heart_attack_classification, task_id=read_csv, execution_date=20231201T174602, start_date=20231201T174604, end_date=20231201T174604
+[2023-12-01T17:46:04.892+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-01T17:46:04.909+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
